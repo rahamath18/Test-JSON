@@ -2,13 +2,51 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.test.json</groupId>
-	<artifactId>Test-JSON</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>Test-JSON</name>
 	
-	<url>http://maven.apache.org</url>
+	<groupId>com.test.pojo.json.conversion</groupId>
+	<artifactId>POJO-2-JSON-Conversion-Example</artifactId>
+	<version>1.0-PROD</version>
+
+	<packaging>jar</packaging>
+
+	<name>POJO-2-JSON-Conversion-Example</name>
+	<url>https://github.com/rahamath18/POJO-2-JSON-Conversion-Example</url>
+	<description>POJO to JSON Conversion Example</description>
+
+	<organization>
+		<name>Personal</name>
+		<url>https://rahamaths.appspot.com/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<id>rahamath18</id>
+			<name>Rahamath S</name>
+			<email>rahamath18@yahoo.com</email>
+			<organization>Personal</organization>
+			<roles>
+				<role>Project Technical Lead</role>
+			</roles>
+			<timezone>GMT +5.30</timezone>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>Community Project General License</name>
+			<url>https://rahamaths.appspot.com/</url>
+			<comments>
+				Copyright © 2003-2019 rahamaths.appspot.com. All rights reserved.
+				
+				As this is a Community Project General License, 
+				you may use the project or part of the project for your own explore and learnings.
+			</comments>
+		</license>
+	</licenses>
+
+	<properties>
+		<java.version>12</java.version>
+	</properties>
 	
 	<dependencies>
 	
@@ -16,21 +54,21 @@
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
 		    <artifactId>jackson-core</artifactId>
-		    <version>2.9.0</version>
+		    <version>2.10.2</version>
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
 		    <artifactId>jackson-databind</artifactId>
-		    <version>2.9.0</version>
+		    <version>2.10.2</version>
 		</dependency>
 				
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
 		<dependency>
 		    <groupId>com.fasterxml.jackson.core</groupId>
 		    <artifactId>jackson-annotations</artifactId>
-		    <version>2.9.0</version>
+		    <version>2.10.2</version>
 		</dependency>
 		
 		<dependency>
@@ -43,7 +81,7 @@
 	</dependencies>
 	
 	<build>
-		<finalName>Test-JSON</finalName>
+		<finalName>JSON-With-DTO-VO</finalName>
 	</build>
 	
 </project>
